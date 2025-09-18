@@ -1,0 +1,14 @@
+[
+"target/"
+"build/"
+".gradle/"
+".mvn/"
+"*.class"
+"*.log"
+".idea/"
+".vscode/"
+"*.iml"
+".project"
+".classpath"
+".settings/"
+] | str join "\n" | save --force .gitignore
